@@ -1,0 +1,11 @@
+## LambdaMART
+## No. of trees = 200
+## No. of leaves = 10
+## No. of threshold candidates = 256
+## Learning rate = 0.1
+## Stop early = 100
+
+<ensemble>
+	<tree>
+	</tree>
+</ensemble>
