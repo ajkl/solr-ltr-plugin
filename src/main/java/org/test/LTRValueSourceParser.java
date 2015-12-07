@@ -1,4 +1,4 @@
-package com.ebay;
+package org.test;
 
 import ciir.umass.edu.learning.Ranker;
 import ciir.umass.edu.learning.RankerFactory;
@@ -8,9 +8,6 @@ import org.apache.solr.common.util.NamedList;
 import org.apache.solr.search.FunctionQParser;
 import org.apache.solr.search.SyntaxError;
 import org.apache.solr.search.ValueSourceParser;
-
-import java.util.Iterator;
-import java.util.logging.Logger;
 
 /**
  * Created by ajkale on 9/18/15.

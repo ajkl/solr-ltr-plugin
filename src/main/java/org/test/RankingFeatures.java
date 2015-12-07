@@ -1,4 +1,4 @@
-package com.ebay;
+package org.test;
 
 public class RankingFeatures {
     double feature1 = 0;

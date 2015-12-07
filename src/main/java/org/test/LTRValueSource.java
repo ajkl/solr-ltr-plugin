@@ -1,19 +1,14 @@
-package com.ebay;
+package org.test;
 
 import ciir.umass.edu.learning.DenseDataPoint;
 import ciir.umass.edu.learning.Ranker;
-import org.apache.lucene.document.Document;
 import org.apache.lucene.index.AtomicReaderContext;
-import org.apache.lucene.index.DocValues;
 import org.apache.lucene.queries.function.FunctionValues;
 import org.apache.lucene.queries.function.ValueSource;
 import org.apache.lucene.queries.function.docvalues.DoubleDocValues;
-import org.apache.lucene.queries.function.docvalues.FloatDocValues;
-import org.apache.solr.common.SolrException;
 import org.apache.solr.search.FunctionQParser;
 
 import java.io.IOException;
-import java.net.URLDecoder;
 import java.util.Map;
 
 /**
